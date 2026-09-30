@@ -1,0 +1,9 @@
+.DS_Store
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+~$*.xlsx
+
+# Local source material retained for reference but excluded from GitHub
+archive/
