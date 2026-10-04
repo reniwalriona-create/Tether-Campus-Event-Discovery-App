@@ -2,7 +2,7 @@
 
 A campus engagement case study combining student research, public event data, and product design.
 
-[Interactive Figma prototype](https://www.figma.com/proto/uX5zmjCOw2iQHHnz7TnKym/Portfolio-revision-TETHER?node-id=38-404&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=38%3A404) · [Analysis notebook](tether_event_analysis.ipynb) · [SQL queries](analysis/analysis.sql)
+[Interactive Figma prototype](https://www.figma.com/proto/acZrTDLxhe8OTl9GH0uK0x/Tether--Public-Portfolio-Prototype?node-id=38-404&p=f&t=4OkVv2owZetVvGx5-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=38%3A404&show-proto-sidebar=1) · [Analysis notebook](tether_event_analysis.ipynb) · [SQL queries](analysis/analysis.sql)
 
 ![UW-Madison student-life event listings, Spring 2025](assets/analysis/event-listing-summary.png)
 
