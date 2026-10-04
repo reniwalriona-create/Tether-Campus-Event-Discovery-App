@@ -34,7 +34,7 @@ Tether is my proposed fix: one place where verified organizations post complete 
 - Built a reproducible Python pipeline for the UW Events API, with validation checks and a saved snapshot
 - Wrote PostgreSQL queries for listing quality and duplicate detection
 - Defined product requirements, prioritized features and built the roadmap
-- Designed all 17 prototype screens, including the trust workflow for a Phase 2 student ticket exchange
+- Designed all 17 prototype screens, including the trust workflow for a Phase 3 student ticket exchange
 - Presented the concept to students, faculty, the course professor and an Information Systems Society panel
 
 ## Prototype highlights
@@ -55,21 +55,23 @@ Tether is my proposed fix: one place where verified organizations post complete 
 
 ## Requirements traceability
 
-Each requirement traces back to a research theme (listed under Original research below) or a finding from the event data.
+Each requirement traces back to a research theme (listed under Original research below) or a finding from the event data. Requirements are grouped into three phases.
 
 | ID | Requirement | Evidence | Phase |
 |---|---|---|---|
-| R1 | Central search across events and student organizations | Theme 1 (event discovery), Theme 2 (fragmented org information) | Core |
-| R2 | Filters for event category and format (in person, virtual, hybrid) | Theme 1; 4 of 146 listings had no identifiable format | Core |
-| R3 | Required fields before publishing: sponsor, cost, location, end time, event link | Data: 86% of listings had no cost, 49% no link, 21% no sponsor | Core |
-| R4 | Verified organization profiles with a named owner for each listing | Theme 2; hypothesis that clubs lack a clear owner for calendar updates | Core |
-| R5 | One submission that publishes to Tether and, through an approved integration, the UW calendar | Themes 3 and 4 (promotion and coordination across platforms); UW Events API is read-only | Core, needs UW partnership |
-| R6 | Calendar integration and saved events | Theme 1 | Core |
-| R7 | Follows, notifications and personalized recommendations | Themes 1 and 3 | Core |
-| R8 | Direct messaging between students and organizations | Theme 4 | Core |
-| R9 | Engagement reporting on views, saves, registrations and attendance | Data: the UW API provides listings only, with no engagement data | Core |
-| R10 | Coverage reporting by organization and event category | Data: only 15 named sponsors across 146 events; active clubs absent from the sample | Core |
-| R11 | School-verified identities, event-specific listings and clear ticket transfer status | Theme 5 (trust and pricing in ticket exchanges) | Phase 2 |
+| R1 | Central search across events and student organizations | Theme 1 (event discovery), Theme 2 (fragmented org information) | MVP |
+| R2 | Filters for event category and format (in person, virtual, hybrid) | Theme 1; 4 of 146 listings had no identifiable format | MVP |
+| R3 | Required fields before publishing: sponsor, cost, location, end time, event link | Data: 86% of listings had no cost, 49% no link, 21% no sponsor | MVP |
+| R4 | Verified organization profiles with a named owner for each listing | Theme 2; hypothesis that clubs lack a clear owner for calendar updates | MVP |
+| R5 | One submission that publishes to Tether and, through an approved integration, the UW calendar | Themes 3 and 4 (promotion and coordination across platforms); UW Events API is read-only | Phase 2, needs UW partnership |
+| R6 | Calendar integration and saved events | Theme 1 | MVP |
+| R7 | Follows, notifications and personalized recommendations | Themes 1 and 3 | Phase 2 |
+| R8 | Direct messaging between students and organizations | Theme 4 | Phase 2 |
+| R9 | Engagement reporting on views, saves, registrations and attendance | Data: the UW API provides listings only, with no engagement data | Phase 2 |
+| R10 | Coverage reporting by organization and event category | Data: only 15 named sponsors across 146 events; active clubs absent from the sample | Phase 2 |
+| R11 | School-verified identities, event-specific listings and clear ticket transfer status | Theme 5 (trust and pricing in ticket exchanges) | Phase 3 |
+
+**Why this order.** The MVP targets the gap that both the research and the data point to: students need one place to find events, and every listing needs to be complete and owned by a verified organization. Phase 2 adds engagement features and reporting, which only work once organizations and students are using the platform, plus the UW integration, which depends on a partnership. The ticket exchange comes last because it involves payments, disputes and outside ticketing providers, so it carries the most risk and is furthest from the core problem.
 
 ## Full case study
 
@@ -182,7 +184,7 @@ Likely barriers include limited awareness of the calendar, no clear owner for it
 
 <br>
 
-Tether covers three connected product areas, with ticket exchange designed later as Phase 2.
+Tether covers three connected product areas, with ticket exchange designed later as Phase 3.
 
 **Campus discovery**
 - Central event and organization search
@@ -205,7 +207,7 @@ Tether covers three connected product areas, with ticket exchange designed later
 - Reporting on views, saves, registrations and attendance
 - Coverage reporting by organization and event category
 
-**Phase 2: trusted ticket exchange**
+**Phase 3: trusted ticket exchange**
 - School-verified student identities
 - Event-specific ticket listings
 - Seller context and pricing
@@ -247,7 +249,7 @@ The concept and prototype were reviewed by students, faculty, the course profess
 - Define a standardized data model for event listings.
 - Explore a formal UW partnership for verified organizations and event-data integration.
 - Set data governance, privacy, approval and system-ownership requirements.
-- Add acceptance criteria and priority to each requirement in the traceability table.
+- Add acceptance criteria to each requirement in the traceability table.
 - Refine the main prototype workflows.
 - Build the product measurement and validation plan.
 
