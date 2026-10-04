@@ -8,7 +8,7 @@ A campus engagement case study combining student research, public event data, an
 
 ## Summary
 
-UW-Madison students find out about campus events through email, Instagram, group chats and word of mouth. In a survey of 95 students, 80% said they had missed an event because they didn't know it was happening. I wanted to see whether the university's own event calendar closes that gap, so I pulled every event tagged `student life` from the public UW Events API for Spring 2025.
+UW-Madison students find out about campus events through email, Instagram, group chats and word of mouth. In a survey of 95 students, 68% said they had missed an event because they didn't know it was happening. I wanted to see whether the university's own event calendar closes that gap, so I pulled every event tagged `student life` from the public UW Events API for Spring 2025.
 
 It doesn't, for two reasons:
 
